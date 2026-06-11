@@ -1,0 +1,2 @@
+import { DashboardShell } from "@/components/DashboardShell";
+export default function Alerts(){return <DashboardShell><h1 className="text-3xl font-black">Alerts</h1><div className="mt-8 space-y-4"><div className="card p-5"><b>SSL Expiry Warning</b><p className="text-slate-600">customsite.com SSL certificate expires soon.</p></div><div className="card p-5"><b>License Renewal</b><p className="text-slate-600">WP Rocket renewal due in 15 days.</p></div></div></DashboardShell>}
